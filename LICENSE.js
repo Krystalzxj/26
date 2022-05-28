@@ -62,9 +62,9 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
         (v6.primaryAddress ? `𝑰𝑷𝒗6 : ${v6.primaryAddress}\n` : '') +
         (v4.primaryRouter && wifi.ssid ? `𝑹𝒐𝒖𝒕𝒆𝒓 IPv4 : ${v4.primaryRouter}\n` : '') +
         (v6.primaryRouter && wifi.ssid ? `𝑹𝒐𝒖𝒕𝒆𝒓 IPv6 : ${v6.primaryRouter}\n` : '') +
-        `【𝑵𝒐𝒅𝒆 𝑰𝑷】 : ${info.query}\n` +
-        `【𝑵𝒐𝒅𝒆 𝑰𝑺𝑷】 : ${info.isp}\n` +
-        `【𝑵𝒐𝒅𝒆 𝒍𝒐𝒄𝒂𝒕𝒊𝒐𝒏】: ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city
+        `【节点𝑰𝑷】 : ${info.query}\n` +
+        `【节点𝑰𝑺𝑷】 : ${info.isp}\n` +
+        `【节点位置】: ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city
         }`,
       icon: wifi.ssid ? 'hand.point.up.braille.fill' : 'simcard',
       'icon-color': wifi.ssid ? '#fff2df' : '#eec362',
